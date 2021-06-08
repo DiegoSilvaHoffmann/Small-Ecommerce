@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'produto',
+    'pedido',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -159,3 +160,4 @@ SESSION_SAVE_EVERY_REQUEST = False
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
